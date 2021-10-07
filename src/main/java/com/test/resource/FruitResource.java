@@ -20,8 +20,8 @@ public class FruitResource {
     FruitService fruitService;
 
     @GET
-    public List<Fruit> list() {
-        return fruitService.list();
+    public List<String> list() {
+        return List.of("Hello");
     }
 
     @GET
